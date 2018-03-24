@@ -1,0 +1,157 @@
+-- Database: UTCN Student Platform DB
+
+DROP DATABASE "UTCN Student Platform DB";
+
+CREATE DATABASE "UTCN Student Platform DB"
+    WITH 
+    OWNER = "Lucian Turcu"
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_United States.1252'
+    LC_CTYPE = 'English_United States.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+	
+-- SCHEMA: public
+
+DROP SCHEMA public ;
+
+CREATE SCHEMA public
+    AUTHORIZATION postgres;
+
+COMMENT ON SCHEMA public
+    IS 'standard public schema';
+
+GRANT ALL ON SCHEMA public TO postgres;
+
+GRANT ALL ON SCHEMA public TO PUBLIC;
+
+-- Table: public."Student"
+
+DROP TABLE public."Student";
+
+CREATE TABLE public."Student"
+(
+    id integer NOT NULL,
+    name name NOT NULL,
+    address text COLLATE pg_catalog."default",
+    email text COLLATE pg_catalog."default",
+    CONSTRAINT "Student_pkey" PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."Student"
+    OWNER to "Lucian Turcu";
+	
+-- Table: public."Teacher"
+
+-- DROP TABLE public."Teacher";
+
+CREATE TABLE public."Teacher"
+(
+    id integer NOT NULL,
+    name name NOT NULL,
+    address text COLLATE pg_catalog."default",
+    email text COLLATE pg_catalog."default",
+    course_id integer,
+    CONSTRAINT "Teacher_pkey" PRIMARY KEY (id),
+    CONSTRAINT fk_course_id FOREIGN KEY (course_id)
+        REFERENCES public."Course" (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."Teacher"
+    OWNER to "Lucian Turcu";
+
+-- Table: public."User"
+
+DROP TABLE public."User";
+
+CREATE TABLE public."User"
+(
+    id integer NOT NULL DEFAULT nextval('"User_id_seq"'::regclass),
+    username text COLLATE pg_catalog."default" NOT NULL,
+    password text COLLATE pg_catalog."default" NOT NULL,
+    usertype text COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT "User_pkey" PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."User"
+    OWNER to postgres;
+	
+-- Table: public."Course"
+
+DROP TABLE public."Course";
+
+CREATE TABLE public."Course"
+(
+    id integer NOT NULL DEFAULT nextval('"Course_id_seq"'::regclass),
+    name text COLLATE pg_catalog."default" NOT NULL,
+    year integer,
+    credits integer,
+    CONSTRAINT "Course_pkey" PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."Course"
+    OWNER to "Lucian Turcu";
+	
+-- Table: public."Enrollment"
+
+DROP TABLE public."Enrollment";
+
+CREATE TABLE public."Enrollment"
+(
+    id integer NOT NULL DEFAULT nextval('enrollment_id_seq'::regclass),
+    student_id integer NOT NULL,
+    course_id integer NOT NULL,
+    grade double precision,
+    CONSTRAINT enrollment_pkey PRIMARY KEY (id),
+    CONSTRAINT fk_course_id FOREIGN KEY (course_id)
+        REFERENCES public."Course" (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT fk_student_id FOREIGN KEY (student_id)
+        REFERENCES public."Student" (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."Enrollment"
+    OWNER to postgres;
+
+-- Index: fki_course_id
+
+DROP INDEX public.fki_course_id;
+
+CREATE INDEX fki_course_id
+    ON public."Enrollment" USING btree
+    (course_id)
+    TABLESPACE pg_default;
+
+-- Index: fki_student_id
+
+DROP INDEX public.fki_student_id;
+
+CREATE INDEX fki_student_id
+    ON public."Enrollment" USING btree
+    (student_id)
+    TABLESPACE pg_default;
