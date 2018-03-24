@@ -3,17 +3,17 @@ package dataAccessLayer;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class SQLConnectionFactory {
+public abstract class SQLConnectionFactory {
     public static Connection c;
-    
-    public Connection getConnection() {
+
+    public static Connection getConnection() {
         if(c == null) {
             c = createConnection();
         }
         return c;
     }
 
-    public Connection createConnection() {
+    public static Connection createConnection() {
         try {
             Class.forName("org.postgresql.Driver");
             c = DriverManager
