@@ -2,15 +2,19 @@ package repositoryLayer;
 
 public class Student extends User {
     private int id;
+    private Long PNC;
     private String name;
     private String address;
     private String email;
+    private int year;
 
-    public Student(int PNC, String name, String address, String email) {
-        this.id = PNC;
+    public Student(int id, String name, String address, String email, Long PNC, int year) {
+        this.id = id;
         this.name = name;
         this.address = address;
         this.email = email;
+        this.PNC = PNC;
+        this.year = year;
     }
 
     public Student() {
@@ -48,13 +52,31 @@ public class Student extends User {
         this.email = email;
     }
 
+    public Long getPNC() {
+        return PNC;
+    }
+
+    public void setPNC(Long PNC) {
+        this.PNC = PNC;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +
+                ", PNC=" + PNC +
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", email='" + email + '\'' +
+                ", year=" + year +
                 '}';
     }
 }

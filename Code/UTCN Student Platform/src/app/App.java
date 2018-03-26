@@ -2,12 +2,25 @@ package app;
 
 import dataAccessLayer.SQLConnectionFactory;
 import dataAccessLayer.StudentDAO;
+import presentationLayer.Login;
 import repositoryLayer.Student;
 
+import javax.swing.*;
 import java.sql.SQLException;
 
 public class App {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                Login gui = new Login();
+                gui.start();
+            }
+        });
+    }
+
+
+    /*public static void main(String args[]) {
+
         try {
             //StudentDAO.addStudent(22233344, "test name", "test address", "test@email.com");
             Student me = StudentDAO.getStudent(21013299);
@@ -30,15 +43,6 @@ public class App {
         }
 
 
-        /*SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                FileExtractorGUI gui = new FileExtractorGUI();
-                JFrame frame = new JFrame();
-                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.getContentPane().add(gui);
-                frame.pack();
-                frame.setVisible(true);
-            }
-        });*/
-    }
+        /*
+    }*/
 }

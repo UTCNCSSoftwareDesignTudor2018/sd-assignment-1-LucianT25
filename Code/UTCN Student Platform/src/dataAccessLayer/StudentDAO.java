@@ -9,9 +9,9 @@ import java.sql.Statement;
 
 public class StudentDAO {
 
-    public static void addStudent(int id, String name, String address, String email) {
-        Connection c = null;
-        Statement stmt = null;
+    public static void addStudent(int id, String name, String address, String email, Long pnc) {
+        Connection c;
+        Statement stmt;
         try {
             Class.forName("org.postgresql.Driver");
             c = SQLConnectionFactory.getConnection();
@@ -19,8 +19,8 @@ public class StudentDAO {
             System.out.println("Opened database successfully");
 
             stmt = c.createStatement();
-            String sql = "INSERT INTO public.\"Student\"(ID,NAME,ADDRESS,EMAIL) "
-                    + "VALUES ("+id+", '"+name+"', '"+address+"', '"+email+"' );";
+            String sql = "INSERT INTO public.\"Student\"(ID,NAME,ADDRESS,EMAIL, PNC) "
+                    + "VALUES ("+id+", '"+name+"', '"+address+"', '"+email+"', '"+pnc+"' );";
             stmt.executeUpdate(sql);
             stmt.close();
             c.commit();
@@ -32,8 +32,8 @@ public class StudentDAO {
     }
 
     public static Student getStudent(int id) {
-        Connection c = null;
-        PreparedStatement stmt = null;
+        Connection c;
+        PreparedStatement stmt;
         Student selectedStudent = null;
 
         try {
@@ -51,8 +51,10 @@ public class StudentDAO {
                 String  name = rs.getString("name");
                 String  address = rs.getString("address");
                 String email = rs.getString("email");
+                Long pnc = rs.getLong("pnc");
+                int year = rs.getInt("year");
 
-                selectedStudent = new Student(id, name, address, email);
+                selectedStudent = new Student(id, name, address, email, pnc, year);
             }
 
             stmt.close();
@@ -65,20 +67,26 @@ public class StudentDAO {
         return selectedStudent;
     }
 
-    public static void updateStudent(int id, String field, String value) {
+    public static int updateStudent(String name, String address, String email, Long pnc, int year, int id) {
         Connection c = null;
         PreparedStatement stmt = null;
+        int updateCount = 0;
         try {
             Class.forName("org.postgresql.Driver");
             c = SQLConnectionFactory.getConnection();
             c.setAutoCommit(false);
             System.out.println("Opened database successfully");
 
-            String sql = "UPDATE public.\"Student\" SET "+field+" = ? WHERE id = ?";
+            String sql = "UPDATE public.\"Student\" SET name = ?, address = ?, email = ?, PNC = ?, year = ? WHERE id = ?";
             stmt = c.prepareStatement(sql);
-            stmt.setString(1, value);
-            stmt.setInt(2, id);
-            stmt.executeUpdate();
+            stmt.setString(1, name);
+            stmt.setString(2, address);
+            stmt.setString(3, email);
+            stmt.setLong(4, pnc);
+            stmt.setInt(5, year);
+            stmt.setInt(6, id);
+
+            updateCount = stmt.executeUpdate();
             stmt.close();
             c.commit();
         } catch (Exception e) {
@@ -86,10 +94,8 @@ public class StudentDAO {
             System.exit(0);
         }
         System.out.println("update successful");
+        return updateCount;
     }
-
-    Connection c;
-    PreparedStatement stmt;
 
     public static void deleteStudent(int id) {
         Connection c;

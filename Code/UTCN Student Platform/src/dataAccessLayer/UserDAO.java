@@ -51,7 +51,9 @@ public class UserDAO {
 
             if ( rs.next() ) {
                 String password = rs.getString("password");
-                selectedUser = new User(username, password);
+                String type = rs.getString("usertype");
+                int id = rs.getInt("id");
+                selectedUser = new User(username, password, type, id);
             }
 
             stmt.close();
