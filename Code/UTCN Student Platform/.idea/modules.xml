@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UTCN Student Platform.iml" filepath="$PROJECT_DIR$/UTCN Student Platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UTCNStudentPlatform.iml" filepath="$PROJECT_DIR$/UTCNStudentPlatform.iml" />
     </modules>
   </component>
 </project>

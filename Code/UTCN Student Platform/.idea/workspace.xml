@@ -1,46 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="UTCN_Student_Platform:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a421d213-68a4-4353-aaeb-2f9b20dba9e9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/presentationLayer/TeacherMain.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/presentationLayer/TeacherMain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.form" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/utcn/app/App.java" />
+      <change beforePath="$PROJECT_DIR$/../Database/Create_DB.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/IEnrollmentBLL.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/IEnrollmentBLL.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/ITeacherBLL.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/ITeacherBLL.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/CourseBLL.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/CourseBLL.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/EnrollmentBLL.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/EnrollmentBLL.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/StudentBLL.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/StudentBLL.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/TeacherBLL.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/TeacherBLL.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/UserBLL.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/UserBLL.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/EnrollmentDAO.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/EnrollmentDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/TeacherDAO.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/TeacherDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/Login$1.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/Login$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/Login.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/Login.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEditProfile$1.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEditProfile$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEditProfile.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEditProfile.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$1.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$2.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$3.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$3.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/Teacher.class" afterPath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/Teacher.class" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/IEnrollmentBLL.java" afterPath="$PROJECT_DIR$/src/bussinessLogicLayer/IEnrollmentBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/IStudentBLL.java" afterPath="$PROJECT_DIR$/src/bussinessLogicLayer/IStudentBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/ITeacherBLL.java" afterPath="$PROJECT_DIR$/src/bussinessLogicLayer/ITeacherBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/CourseBLL.java" afterPath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/CourseBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/EnrollmentBLL.java" afterPath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/EnrollmentBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/StudentBLL.java" afterPath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/StudentBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/TeacherBLL.java" afterPath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/TeacherBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/UserBLL.java" afterPath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/UserBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/EnrollmentDAO.java" afterPath="$PROJECT_DIR$/src/dataAccessLayer/EnrollmentDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/TeacherDAO.java" afterPath="$PROJECT_DIR$/src/dataAccessLayer/TeacherDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/Login.form" afterPath="$PROJECT_DIR$/src/presentationLayer/Login.form" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/Login.java" afterPath="$PROJECT_DIR$/src/presentationLayer/Login.java" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.form" afterPath="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.form" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.java" afterPath="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.java" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentMain.java" afterPath="$PROJECT_DIR$/src/presentationLayer/StudentMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/Teacher.java" afterPath="$PROJECT_DIR$/src/repositoryLayer/Teacher.java" />
+      <change beforePath="$PROJECT_DIR$/UTCN Student Platform.iml" afterPath="$PROJECT_DIR$/UTCNStudentPlatform.iml" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/app/App$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/app/App.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/ICourseBLL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/IEnrollmentBLL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/IStudentBLL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/ITeacherBLL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/IUserBLL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/CourseBLL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/EnrollmentBLL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/StudentBLL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/TeacherBLL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/UserBLL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/CourseDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/EnrollmentDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/SQLConnectionFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/StudentDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/TeacherDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/UserDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/Login$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/Login.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEditProfile$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEditProfile.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEnroll$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEnroll.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherMain$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherMain$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherMain.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherViewStudent$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherViewStudent$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherViewStudent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/Course.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/Enrollment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/Student.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/Teacher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/ICourseBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/ICourseBLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/IEnrollmentBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/IEnrollmentBLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/IStudentBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/IStudentBLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/ITeacherBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/ITeacherBLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/IUserBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/IUserBLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/CourseBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/CourseBLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/EnrollmentBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/EnrollmentBLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/StudentBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/StudentBLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/TeacherBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/TeacherBLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/UserBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/UserBLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/CourseDAO.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/CourseDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/EnrollmentDAO.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/EnrollmentDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/SQLConnectionFactory.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/SQLConnectionFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/StudentDAO.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/StudentDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/TeacherDAO.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/TeacherDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/UserDAO.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/UserDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/Login.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/Login.form" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/Login.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/Login.java" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEditProfile.form" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEditProfile.java" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentEnroll.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEnroll.form" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentEnroll.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEnroll.java" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentMain.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentMain.form" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentMain.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentMain.java" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/TeacherMain.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherMain.form" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/TeacherMain.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherMain.java" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherViewStudent.form" />
+      <change beforePath="$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherViewStudent.java" />
+      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/Course.java" afterPath="$PROJECT_DIR$/src/com/utcn/repositoryLayer/Course.java" />
+      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/Enrollment.java" afterPath="$PROJECT_DIR$/src/com/utcn/repositoryLayer/Enrollment.java" />
+      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/Student.java" afterPath="$PROJECT_DIR$/src/com/utcn/repositoryLayer/Student.java" />
+      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/Teacher.java" afterPath="$PROJECT_DIR$/src/com/utcn/repositoryLayer/Teacher.java" />
+      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/User.java" afterPath="$PROJECT_DIR$/src/com/utcn/repositoryLayer/User.java" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/Assignment_Analysis_and_Design_Document.docx" afterPath="$PROJECT_DIR$/../../Documentation/Assignment_Analysis_and_Design_Document.docx" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,136 +97,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TeacherViewStudent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.java">
+      <file leaf-file-name="StudentMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2788#2789#0" expanded="true" />
-                <element signature="e#2825#2826#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/presentationLayer/TeacherMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="41" column="95" lean-forward="false" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
+            <state relative-caret-position="357">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherViewStudent.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.form">
+      <file leaf-file-name="StudentMain.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentMain.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IEnrollmentBLL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/IEnrollmentBLL.java">
+      <file leaf-file-name="StudentEnroll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEnroll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+            <state relative-caret-position="425">
+              <caret line="35" column="83" lean-forward="false" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentBLL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/Impl/StudentBLL.java">
+      <file leaf-file-name="EnrollmentBLL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/EnrollmentBLL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="68">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/utcn/repositoryLayer/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="e#708#709#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserBLL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/UserBLL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="42" column="72" lean-forward="false" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentBLL.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/StudentBLL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
               <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnrollmentBLL.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/Impl/EnrollmentBLL.java">
+      <file leaf-file-name="TeacherBLL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/TeacherBLL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentEditProfile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEditProfile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnrollmentDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/EnrollmentDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1546">
-              <caret line="124" column="53" lean-forward="false" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
-              <folding>
-                <marker date="1522225884556" expanded="true" signature="1020:1126" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
-                <marker date="1522225884556" expanded="true" signature="1020:1140" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
-                <marker date="1522225884556" expanded="true" signature="1020:1141" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
-                <marker date="1522225884556" expanded="true" signature="1850:1913" ph="UPDATE public.\&quot;Enrollment\&quot;... " />
-                <marker date="1522225884556" expanded="true" signature="1850:1931" ph="UPDATE public.\&quot;Enrollment\&quot;... " />
-                <marker date="1522225884556" expanded="true" signature="2829:3098" ph="SELECT publi... Enrollment" />
-                <marker date="1522225884556" expanded="true" signature="2829:3099" ph="SELECT * FRO... Student" />
-                <marker date="1522225884556" expanded="true" signature="4450:4688" ph="SELECT publi... Enrollment" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enrollment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/repositoryLayer/Enrollment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IStudentBLL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/IStudentBLL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/StudentDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="66" selection-end-column="31" />
-              <folding>
-                <marker date="1522099814531" expanded="true" signature="634:653" ph="INSERT INTO public.... " />
-                <marker date="1522099814531" expanded="true" signature="634:662" ph="INSERT INTO public.... " />
-                <marker date="1522099814531" expanded="true" signature="634:692" ph="INSERT INTO STUDENT... " />
-                <marker date="1522099814531" expanded="true" signature="634:726" ph="INSERT INTO STUDENT... " />
-                <marker date="1522099814531" expanded="true" signature="634:733" ph="INSERT INTO STUDENT... " />
-                <marker date="1522099814531" expanded="true" signature="634:737" ph="INSERT INTO STUDENT... " />
-                <marker date="1522099814531" expanded="true" signature="634:745" ph="INSERT INTO STUDENT... " />
-                <marker date="1522099814531" expanded="true" signature="634:746" ph="INSERT INTO STUDENT... " />
-                <marker date="1522099814531" expanded="true" signature="634:760" ph="INSERT INTO STUDENT... " />
-                <marker date="1522099814531" expanded="true" signature="634:761" ph="INSERT INTO STUDENT... " />
-                <marker date="1522099814531" expanded="true" signature="634:775" ph="INSERT INTO public.\&quot;Student\&quot;... " />
-                <marker date="1522099814531" expanded="true" signature="634:785" ph="INSERT INTO STUDENT... " />
-                <marker date="1522099814531" expanded="true" signature="634:787" ph="INSERT INTO public.\&quot;Student\&quot;... " />
-                <marker date="1522099814531" expanded="true" signature="1470:1515" ph="SELECT * FRO... Student" />
-                <marker date="1522099814531" expanded="true" signature="2772:2801" ph="UPDATE public.\&quot;Student\&quot;... " />
-                <marker date="1522099814531" expanded="true" signature="2772:2866" ph="UPDATE public.\&quot;Student\&quot;... " />
-                <marker date="1522099814531" expanded="true" signature="2772:2867" ph="UPDATE public.\&quot;Student\&quot;... " />
-                <marker date="1522099814531" expanded="true" signature="3808:3851" ph="DELETE FROM public.\&quot;Student\&quot;... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -193,6 +203,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -217,37 +229,40 @@
         <option value="$PROJECT_DIR$/src/dataAccessLayer/SQLConnectionFactory.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/StudentBLL.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/EnrollmentBLL.java" />
-        <option value="$PROJECT_DIR$/src/app/App.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/IUserBLL.java" />
         <option value="$PROJECT_DIR$/src/repositoryLayer/User.java" />
         <option value="$PROJECT_DIR$/src/dataAccessLayer/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/presentationLayer/StudentMain.form" />
         <option value="$PROJECT_DIR$/src/repositoryLayer/Student.java" />
         <option value="$PROJECT_DIR$/src/dataAccessLayer/StudentDAO.java" />
         <option value="$PROJECT_DIR$/src/dataAccessLayer/CourseDAO.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/ICourseBLL.java" />
         <option value="$PROJECT_DIR$/src/presentationLayer/StudentEnroll.form" />
-        <option value="$PROJECT_DIR$/src/presentationLayer/StudentEnroll.java" />
         <option value="$PROJECT_DIR$/src/presentationLayer/Login.form" />
-        <option value="$PROJECT_DIR$/src/presentationLayer/StudentMain.java" />
-        <option value="$PROJECT_DIR$/src/repositoryLayer/Teacher.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/CourseBLL.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/UserBLL.java" />
         <option value="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.form" />
-        <option value="$PROJECT_DIR$/src/presentationLayer/TeacherMain.form" />
         <option value="$PROJECT_DIR$/src/presentationLayer/Login.java" />
-        <option value="$PROJECT_DIR$/src/dataAccessLayer/TeacherDAO.java" />
         <option value="$PROJECT_DIR$/src/dataAccessLayer/EnrollmentDAO.java" />
-        <option value="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/TeacherBLL.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/ITeacherBLL.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/IStudentBLL.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/StudentBLL.java" />
         <option value="$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.form" />
-        <option value="$PROJECT_DIR$/src/presentationLayer/TeacherMain.java" />
         <option value="$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/IEnrollmentBLL.java" />
         <option value="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/EnrollmentBLL.java" />
+        <option value="$PROJECT_DIR$/src/app/App.java" />
+        <option value="$PROJECT_DIR$/src/tests/EnrollmentBLLTest.java" />
+        <option value="$PROJECT_DIR$/tests/EnrollmentBLLTest.java" />
+        <option value="$PROJECT_DIR$/src/repositoryLayer/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/dataAccessLayer/TeacherDAO.java" />
+        <option value="$PROJECT_DIR$/src/presentationLayer/TeacherMain.form" />
+        <option value="$PROJECT_DIR$/src/presentationLayer/TeacherMain.java" />
+        <option value="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.java" />
+        <option value="$PROJECT_DIR$/src/presentationLayer/StudentMain.form" />
+        <option value="$PROJECT_DIR$/src/presentationLayer/StudentMain.java" />
+        <option value="$PROJECT_DIR$/src/presentationLayer/StudentEnroll.java" />
+        <option value="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/StudentBLL.java" />
       </list>
     </option>
   </component>
@@ -279,8 +294,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,63 +314,11 @@
               <item name="UTCN Student Platform" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UTCN Student Platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UTCN Student Platform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UTCN Student Platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UTCN Student Platform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bussinessLogicLayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UTCN Student Platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UTCN Student Platform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bussinessLogicLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UTCN Student Platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UTCN Student Platform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dataAccessLayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UTCN Student Platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UTCN Student Platform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationLayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UTCN Student Platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UTCN Student Platform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="TeacherMain" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="UTCN Student Platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UTCN Student Platform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationLayer" type="462c0819:PsiDirectoryNode" />
-              <item name="TeacherViewStudent" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="UTCN Student Platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UTCN Student Platform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="repositoryLayer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,6 +326,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="199" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="tests" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -455,6 +436,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UTCN Student Platform" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -523,16 +516,16 @@
       <workItem from="1521969440239" duration="6913000" />
       <workItem from="1522073400553" duration="21658000" />
       <workItem from="1522171679743" duration="602000" />
-      <workItem from="1522218140649" duration="11425000" />
+      <workItem from="1522218140649" duration="17196000" />
+      <workItem from="1522240603957" duration="979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54802000" />
+    <option name="totallyTimeSpent" value="61552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -543,11 +536,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32633787" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32633787" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16145833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -573,8 +566,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.java</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherViewStudent.java</url>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -584,80 +577,53 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UTCN Student Platform.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositoryLayer/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/TeacherDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/dataAccessLayer/TeacherDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1819">
           <caret line="113" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="113" selection-end-column="5" />
           <folding>
-            <marker date="1522225846846" expanded="true" signature="656:791" ph="INSERT INTO public.\&quot;Teacher\&quot;... " />
-            <marker date="1522225846846" expanded="true" signature="1480:1525" ph="SELECT * FRO... Teacher" />
-            <marker date="1522225846846" expanded="true" signature="2708:2764" ph="UPDATE public.\&quot;Teacher\&quot;... " />
-            <marker date="1522225846846" expanded="true" signature="3519:3562" ph="DELETE FROM public.\&quot;Teacher\&quot;... " />
+            <marker date="1522240900997" expanded="true" signature="682:817" ph="INSERT INTO public.\&quot;Teacher\&quot;... " />
+            <marker date="1522240900997" expanded="true" signature="1506:1551" ph="SELECT * FRO... Teacher" />
+            <marker date="1522240900997" expanded="true" signature="2799:2855" ph="UPDATE public.\&quot;Teacher\&quot;... " />
+            <marker date="1522240900997" expanded="true" signature="3610:3653" ph="DELETE FROM public.\&quot;Teacher\&quot;... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/UserDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/dataAccessLayer/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1734">
           <caret line="102" column="33" lean-forward="true" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1522084167092" expanded="true" signature="598:645" ph="INSERT INTO public.\&quot;User\&quot;... " />
-            <marker date="1522084167092" expanded="true" signature="598:659" ph="INSERT INTO public.\&quot;User\&quot;... " />
-            <marker date="1522084167092" expanded="true" signature="1467:1515" ph="SELECT * FRO... User" />
-            <marker date="1522084167092" expanded="true" signature="2593:2652" ph="UPDATE public.\&quot;Teacher\&quot;... " />
-            <marker date="1522084167092" expanded="true" signature="3422:3468" ph="DELETE FROM public.\&quot;Teacher\&quot;... " />
+            <marker date="1522240900845" expanded="true" signature="557:604" ph="INSERT INTO public.\&quot;User\&quot;... " />
+            <marker date="1522240900845" expanded="true" signature="557:618" ph="INSERT INTO public.\&quot;User\&quot;... " />
+            <marker date="1522240900845" expanded="true" signature="1426:1474" ph="SELECT * FRO... User" />
+            <marker date="1522240900845" expanded="true" signature="2552:2611" ph="UPDATE public.\&quot;Teacher\&quot;... " />
+            <marker date="1522240900845" expanded="true" signature="3381:3427" ph="DELETE FROM public.\&quot;Teacher\&quot;... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/CourseDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/dataAccessLayer/CourseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding>
-            <marker date="1522100790376" expanded="true" signature="566:610" ph="SELECT * FRO... Course" />
+            <marker date="1522240900813" expanded="true" signature="584:628" ph="SELECT * FRO... Course" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositoryLayer/Enrollment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/repositoryLayer/Enrollment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#292#293#0" expanded="false" />
-            <element signature="e#322#323#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="false" />
-            <element signature="e#407#408#0" expanded="false" />
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#469#470#0" expanded="false" />
-            <element signature="e#513#514#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
-            <element signature="e#609#610#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#685#686#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositoryLayer/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/repositoryLayer/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
@@ -665,19 +631,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/EnrollmentDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/dataAccessLayer/EnrollmentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding>
-            <marker date="1522225884556" expanded="true" signature="1020:1126" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
-            <marker date="1522225884556" expanded="true" signature="1020:1140" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
-            <marker date="1522225884556" expanded="true" signature="1020:1141" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
-            <marker date="1522225884556" expanded="true" signature="1850:1913" ph="UPDATE public.\&quot;Enrollment\&quot;... " />
-            <marker date="1522225884556" expanded="true" signature="1850:1931" ph="UPDATE public.\&quot;Enrollment\&quot;... " />
-            <marker date="1522225884556" expanded="true" signature="2829:3098" ph="SELECT publi... Enrollment" />
-            <marker date="1522225884556" expanded="true" signature="2829:3099" ph="SELECT * FRO... Student" />
-            <marker date="1522225884556" expanded="true" signature="4450:4688" ph="SELECT publi... Enrollment" />
+            <marker date="1522240900873" expanded="true" signature="1001:1107" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
+            <marker date="1522240900873" expanded="true" signature="1001:1121" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
+            <marker date="1522240900873" expanded="true" signature="1001:1122" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
+            <marker date="1522240900873" expanded="true" signature="1831:1894" ph="UPDATE public.\&quot;Enrollment\&quot;... " />
+            <marker date="1522240900873" expanded="true" signature="1831:1912" ph="UPDATE public.\&quot;Enrollment\&quot;... " />
+            <marker date="1522240900873" expanded="true" signature="2810:3079" ph="SELECT publi... Enrollment" />
+            <marker date="1522240900873" expanded="true" signature="2810:3080" ph="SELECT * FRO... Student" />
+            <marker date="1522240900873" expanded="true" signature="4431:4669" ph="SELECT publi... Enrollment" />
           </folding>
         </state>
       </provider>
@@ -692,14 +658,14 @@
     <entry file="file://$PROJECT_DIR$/src/application.java" />
     <entry file="file://$PROJECT_DIR$/src/model/Grade.java" />
     <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/TestJDBCConnection.java" />
-    <entry file="file://$PROJECT_DIR$/UTCN Student Platform.iml">
+    <entry file="file://$PROJECT_DIR$/UTCNStudentPlatform.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/SQLConnectionFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/dataAccessLayer/SQLConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
@@ -710,7 +676,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/presentationLayer/LoginForm.form" />
-    <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/IUserBLL.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/IUserBLL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
@@ -718,33 +684,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/UserDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/dataAccessLayer/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="53" column="55" lean-forward="true" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1522084167092" expanded="true" signature="598:645" ph="INSERT INTO public.\&quot;User\&quot;... " />
-            <marker date="1522084167092" expanded="true" signature="598:659" ph="INSERT INTO public.\&quot;User\&quot;... " />
-            <marker date="1522084167092" expanded="true" signature="1467:1515" ph="SELECT * FRO... User" />
-            <marker date="1522084167092" expanded="true" signature="2593:2652" ph="UPDATE public.\&quot;Teacher\&quot;... " />
-            <marker date="1522084167092" expanded="true" signature="3422:3468" ph="DELETE FROM public.\&quot;Teacher\&quot;... " />
+            <marker date="1522240900845" expanded="true" signature="557:604" ph="INSERT INTO public.\&quot;User\&quot;... " />
+            <marker date="1522240900845" expanded="true" signature="557:618" ph="INSERT INTO public.\&quot;User\&quot;... " />
+            <marker date="1522240900845" expanded="true" signature="1426:1474" ph="SELECT * FRO... User" />
+            <marker date="1522240900845" expanded="true" signature="2552:2611" ph="UPDATE public.\&quot;Teacher\&quot;... " />
+            <marker date="1522240900845" expanded="true" signature="3381:3427" ph="DELETE FROM public.\&quot;Teacher\&quot;... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositoryLayer/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,69 +720,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/StudentMain.form">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEnroll.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositoryLayer/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="e#1044#1045#0" expanded="false" />
-            <element signature="e#1070#1071#0" expanded="false" />
-            <element signature="e#1106#1107#0" expanded="false" />
-            <element signature="e#1136#1137#0" expanded="false" />
-            <element signature="e#1164#1165#0" expanded="false" />
-            <element signature="e#1191#1192#0" expanded="false" />
-            <element signature="e#1228#1229#0" expanded="false" />
-            <element signature="e#1260#1261#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositoryLayer/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/StudentEnroll.form">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/Login.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/StudentEnroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <element signature="e#1536#1537#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/Login.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositoryLayer/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding>
-            <element signature="e#997#998#0" expanded="false" />
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1074#1075#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/Impl/CourseBLL.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/CourseBLL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -839,94 +738,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/ICourseBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/Impl/UserBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.form">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEditProfile.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/StudentMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2154#2155#0" expanded="false" />
-            <element signature="e#2186#2187#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/TeacherMain.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/CourseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <marker date="1522100790376" expanded="true" signature="566:610" ph="SELECT * FRO... Course" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="42" column="72" lean-forward="false" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/TeacherDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
-          <folding>
-            <marker date="1522225846846" expanded="true" signature="656:791" ph="INSERT INTO public.\&quot;Teacher\&quot;... " />
-            <marker date="1522225846846" expanded="true" signature="1480:1525" ph="SELECT * FRO... Teacher" />
-            <marker date="1522225846846" expanded="true" signature="2708:2764" ph="UPDATE public.\&quot;Teacher\&quot;... " />
-            <marker date="1522225846846" expanded="true" signature="3519:3562" ph="DELETE FROM public.\&quot;Teacher\&quot;... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="48" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/Impl/TeacherBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/ITeacherBLL.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/ITeacherBLL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -934,42 +751,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/repositoryLayer/Enrollment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/StudentDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/dataAccessLayer/StudentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="66" selection-end-column="31" />
           <folding>
-            <marker date="1522099814531" expanded="true" signature="634:653" ph="INSERT INTO public.... " />
-            <marker date="1522099814531" expanded="true" signature="634:662" ph="INSERT INTO public.... " />
-            <marker date="1522099814531" expanded="true" signature="634:692" ph="INSERT INTO STUDENT... " />
-            <marker date="1522099814531" expanded="true" signature="634:726" ph="INSERT INTO STUDENT... " />
-            <marker date="1522099814531" expanded="true" signature="634:733" ph="INSERT INTO STUDENT... " />
-            <marker date="1522099814531" expanded="true" signature="634:737" ph="INSERT INTO STUDENT... " />
-            <marker date="1522099814531" expanded="true" signature="634:745" ph="INSERT INTO STUDENT... " />
-            <marker date="1522099814531" expanded="true" signature="634:746" ph="INSERT INTO STUDENT... " />
-            <marker date="1522099814531" expanded="true" signature="634:760" ph="INSERT INTO STUDENT... " />
-            <marker date="1522099814531" expanded="true" signature="634:761" ph="INSERT INTO STUDENT... " />
-            <marker date="1522099814531" expanded="true" signature="634:775" ph="INSERT INTO public.\&quot;Student\&quot;... " />
-            <marker date="1522099814531" expanded="true" signature="634:785" ph="INSERT INTO STUDENT... " />
-            <marker date="1522099814531" expanded="true" signature="634:787" ph="INSERT INTO public.\&quot;Student\&quot;... " />
-            <marker date="1522099814531" expanded="true" signature="1470:1515" ph="SELECT * FRO... Student" />
-            <marker date="1522099814531" expanded="true" signature="2772:2801" ph="UPDATE public.\&quot;Student\&quot;... " />
-            <marker date="1522099814531" expanded="true" signature="2772:2866" ph="UPDATE public.\&quot;Student\&quot;... " />
-            <marker date="1522099814531" expanded="true" signature="2772:2867" ph="UPDATE public.\&quot;Student\&quot;... " />
-            <marker date="1522099814531" expanded="true" signature="3808:3851" ph="DELETE FROM public.\&quot;Student\&quot;... " />
+            <marker date="1522240900908" expanded="true" signature="652:671" ph="INSERT INTO public.... " />
+            <marker date="1522240900908" expanded="true" signature="652:680" ph="INSERT INTO public.... " />
+            <marker date="1522240900908" expanded="true" signature="652:710" ph="INSERT INTO STUDENT... " />
+            <marker date="1522240900908" expanded="true" signature="652:744" ph="INSERT INTO STUDENT... " />
+            <marker date="1522240900908" expanded="true" signature="652:751" ph="INSERT INTO STUDENT... " />
+            <marker date="1522240900908" expanded="true" signature="652:755" ph="INSERT INTO STUDENT... " />
+            <marker date="1522240900908" expanded="true" signature="652:763" ph="INSERT INTO STUDENT... " />
+            <marker date="1522240900908" expanded="true" signature="652:764" ph="INSERT INTO STUDENT... " />
+            <marker date="1522240900908" expanded="true" signature="652:778" ph="INSERT INTO STUDENT... " />
+            <marker date="1522240900908" expanded="true" signature="652:779" ph="INSERT INTO STUDENT... " />
+            <marker date="1522240900908" expanded="true" signature="652:793" ph="INSERT INTO public.\&quot;Student\&quot;... " />
+            <marker date="1522240900908" expanded="true" signature="652:803" ph="INSERT INTO STUDENT... " />
+            <marker date="1522240900908" expanded="true" signature="652:805" ph="INSERT INTO public.\&quot;Student\&quot;... " />
+            <marker date="1522240900908" expanded="true" signature="1488:1533" ph="SELECT * FRO... Student" />
+            <marker date="1522240900908" expanded="true" signature="2790:2819" ph="UPDATE public.\&quot;Student\&quot;... " />
+            <marker date="1522240900908" expanded="true" signature="2790:2884" ph="UPDATE public.\&quot;Student\&quot;... " />
+            <marker date="1522240900908" expanded="true" signature="2790:2885" ph="UPDATE public.\&quot;Student\&quot;... " />
+            <marker date="1522240900908" expanded="true" signature="3826:3869" ph="DELETE FROM public.\&quot;Student\&quot;... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/IStudentBLL.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/IStudentBLL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
@@ -977,57 +786,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/Impl/StudentBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.form">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherViewStudent.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/TeacherMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="41" column="95" lean-forward="false" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherViewStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2788#2789#0" expanded="true" />
-            <element signature="e#2825#2826#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2788#2789#0" expanded="false" />
+            <element signature="e#2825#2826#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataAccessLayer/EnrollmentDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/app/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1546">
-          <caret line="124" column="53" lean-forward="false" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1522225884556" expanded="true" signature="1020:1126" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
-            <marker date="1522225884556" expanded="true" signature="1020:1140" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
-            <marker date="1522225884556" expanded="true" signature="1020:1141" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
-            <marker date="1522225884556" expanded="true" signature="1850:1913" ph="UPDATE public.\&quot;Enrollment\&quot;... " />
-            <marker date="1522225884556" expanded="true" signature="1850:1931" ph="UPDATE public.\&quot;Enrollment\&quot;... " />
-            <marker date="1522225884556" expanded="true" signature="2829:3098" ph="SELECT publi... Enrollment" />
-            <marker date="1522225884556" expanded="true" signature="2829:3099" ph="SELECT * FRO... Student" />
-            <marker date="1522225884556" expanded="true" signature="4450:4688" ph="SELECT publi... Enrollment" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/IEnrollmentBLL.java">
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/ICourseBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/IEnrollmentBLL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
@@ -1035,25 +829,264 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bussinessLogicLayer/Impl/EnrollmentBLL.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/EnrollmentBLLTest.java" />
+    <entry file="file://$PROJECT_DIR$/tests/EnrollmentBLLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/dataAccessLayer/EnrollmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="124" column="53" lean-forward="false" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
+          <folding>
+            <marker date="1522240900873" expanded="true" signature="1001:1107" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
+            <marker date="1522240900873" expanded="true" signature="1001:1121" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
+            <marker date="1522240900873" expanded="true" signature="1001:1122" ph="INSERT INTO public.\&quot;Enrollment\&quot;... " />
+            <marker date="1522240900873" expanded="true" signature="1831:1894" ph="UPDATE public.\&quot;Enrollment\&quot;... " />
+            <marker date="1522240900873" expanded="true" signature="1831:1912" ph="UPDATE public.\&quot;Enrollment\&quot;... " />
+            <marker date="1522240900873" expanded="true" signature="2810:3079" ph="SELECT publi... Enrollment" />
+            <marker date="1522240900873" expanded="true" signature="2810:3080" ph="SELECT * FRO... Student" />
+            <marker date="1522240900873" expanded="true" signature="4431:4669" ph="SELECT publi... Enrollment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/repositoryLayer/Enrollment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/repositoryLayer/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/repositoryLayer/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="68" column="5" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/repositoryLayer/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/dataAccessLayer/CourseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <marker date="1522240900813" expanded="true" signature="584:628" ph="SELECT * FRO... Course" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/dataAccessLayer/TeacherDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="57" column="62" lean-forward="false" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+          <folding>
+            <marker date="1522240900997" expanded="true" signature="682:817" ph="INSERT INTO public.\&quot;Teacher\&quot;... " />
+            <marker date="1522240900997" expanded="true" signature="1506:1551" ph="SELECT * FRO... Teacher" />
+            <marker date="1522240900997" expanded="true" signature="2799:2855" ph="UPDATE public.\&quot;Teacher\&quot;... " />
+            <marker date="1522240900997" expanded="true" signature="3610:3653" ph="DELETE FROM public.\&quot;Teacher\&quot;... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherMain.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentMain.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEditProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEnroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="83" lean-forward="false" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/EnrollmentBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/repositoryLayer/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/UserBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/presentationLayer/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="42" column="72" lean-forward="false" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/TeacherBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/StudentBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>UTCN_Student_Platform:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>UTCN Student Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>postgresql-42.2.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
