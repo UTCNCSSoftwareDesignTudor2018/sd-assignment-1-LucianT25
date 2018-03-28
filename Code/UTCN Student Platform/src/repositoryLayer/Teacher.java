@@ -5,12 +5,14 @@ public class Teacher extends User {
     private String name;
     private String address;
     private String email;
+    private int course;
 
-    public Teacher(int id, String name, String address, String email) {
+    public Teacher(int id, String name, String address, String email, int course) {
         this.id = id;
         this.name = name;
         this.address = address;
         this.email = email;
+        this.course = course;
     }
 
     public int getId() {
@@ -43,5 +45,13 @@ public class Teacher extends User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public int getCourse() {
+        return course;
+    }
+
+    public void setCourse(int course) {
+        this.course = course;
     }
 }

@@ -32,7 +32,7 @@ public class TeacherDAO {
         System.out.println("insert successful");
     }
 
-    public static Teacher getTeacher(int id) {
+    public static Teacher getTeacher(int userId) {
         Connection c;
         PreparedStatement stmt;
         Teacher selectedTeacher = null;
@@ -45,15 +45,16 @@ public class TeacherDAO {
 
             String sql = "SELECT * FROM public.\"Teacher\" WHERE id = ?";
             stmt = c.prepareStatement(sql);
-            stmt.setInt(1, id);
+            stmt.setInt(1, userId);
             ResultSet rs = stmt.executeQuery();
 
             if ( rs.next() ) {
+                int id = rs.getInt("id");
                 String  name = rs.getString("name");
                 String  address = rs.getString("address");
                 String email = rs.getString("email");
-
-                selectedTeacher = new Teacher(id, name, address, email);
+                int course = rs.getInt("course_id");
+                selectedTeacher = new Teacher(id, name, address, email, course);
             }
 
             stmt.close();

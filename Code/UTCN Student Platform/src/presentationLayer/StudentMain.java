@@ -23,7 +23,6 @@ public class StudentMain {
 
     private IEnrollmentBLL enrollmentBLL;
 
-    //String[] columns =
     DefaultTableModel data;
 
     public StudentMain(int studentId) {
@@ -31,7 +30,7 @@ public class StudentMain {
 
 
         this.studentId = studentId;
-        data = enrollmentBLL.getData(studentId);
+        data = enrollmentBLL.getStudentData(studentId);
         gradesTable.setModel(data);
 
         editProfileButton.addActionListener(new ActionListener() {

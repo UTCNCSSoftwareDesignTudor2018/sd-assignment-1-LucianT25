@@ -2,6 +2,7 @@ package presentationLayer;
 
 import bussinessLogicLayer.IUserBLL;
 import bussinessLogicLayer.Impl.UserBLL;
+import repositoryLayer.Teacher;
 import repositoryLayer.User;
 
 import javax.swing.*;
@@ -15,7 +16,6 @@ public class Login {
     private JTextField passwordField;
     private JLabel userLabel;
     private JLabel passLabel;
-    private JButton registerButton;
     private static JFrame newFrame;
     private static JFrame frame;
 
@@ -37,11 +37,16 @@ public class Login {
                         newFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                         newFrame.pack();
                         newFrame.setVisible(true);
-                    } else if(User.TEACHER_TYPE.equals(currentUser.getType())){
-                        //open teacher
+                    } else if(User.TEACHER_TYPE.equals(currentUser.getType())) {
+                        TeacherMain teacherMain = new TeacherMain(currentUser.getId());
+                        newFrame = new JFrame("Teacher View");
+                        newFrame.setContentPane(teacherMain.getPanel());
+                        newFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                        newFrame.pack();
+                        newFrame.setVisible(true);
                     }
                 } else {
-                    //popup
+                    JOptionPane.showMessageDialog(new JFrame("Oops!"), "Invalid username or password!");
                 }
             }
         });

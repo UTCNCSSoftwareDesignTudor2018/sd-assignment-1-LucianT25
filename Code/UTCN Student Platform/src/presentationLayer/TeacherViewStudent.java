@@ -1,30 +1,36 @@
 package presentationLayer;
 
+import bussinessLogicLayer.IEnrollmentBLL;
 import bussinessLogicLayer.IStudentBLL;
+import bussinessLogicLayer.ITeacherBLL;
+import bussinessLogicLayer.Impl.EnrollmentBLL;
 import bussinessLogicLayer.Impl.StudentBLL;
+import bussinessLogicLayer.Impl.TeacherBLL;
 import repositoryLayer.Student;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class StudentEditProfile {
+public class TeacherViewStudent {
+    private JTextField idField;
     private JTextField nameField;
     private JTextField addressField;
     private JTextField emailField;
     private JTextField pncField;
-    private JTextField idField;
     private JTextField yearField;
-
-    private JButton submitButton;
+    private JButton updateButton;
+    private JButton reportButton;
+    private JTextField gradeField;
     private JPanel mainPanel;
-
+    private JTextField reportYearField;
 
     private IStudentBLL studentBLL;
+    private IEnrollmentBLL enrollmentBLL;
 
-    StudentEditProfile(int studentId) {
-
+    public TeacherViewStudent(int studentId, int courseId) {
         studentBLL = new StudentBLL();
+        enrollmentBLL = new EnrollmentBLL();
         Student currentStudent = studentBLL.getStudent(studentId);
 
         nameField.setText(currentStudent.getName());
@@ -34,12 +40,14 @@ public class StudentEditProfile {
         idField.setText(String.valueOf(studentId));
         yearField.setText(String.valueOf(currentStudent.getYear()));
 
-        submitButton.addActionListener(new ActionListener() {
+
+        updateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
+                    enrollmentBLL.putGrade(studentId, courseId, Integer.valueOf(gradeField.getText()));
                     if (studentBLL.updateInfo(nameField.getText(), addressField.getText(), emailField.getText(),
-                            Long.valueOf(pncField.getText()), currentStudent.getYear(), studentId))
+                            Long.valueOf(pncField.getText()), Integer.valueOf(yearField.getText()), studentId))
                         JOptionPane.showMessageDialog(new JFrame("Success!"), "Update successful!");
                     else
                         JOptionPane.showMessageDialog(new JFrame("Oops!"), "Error updating profile.");
@@ -47,6 +55,14 @@ public class StudentEditProfile {
                     JOptionPane.showMessageDialog(new JFrame("Oops!"), "Error updating profile.");
                     ex.printStackTrace();
                 }
+            }
+        });
+
+        reportButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(reportYearField.getText().length() == 1)
+                    studentBLL.createReport(studentId, Integer.valueOf(reportYearField.getText()));
             }
         });
     }

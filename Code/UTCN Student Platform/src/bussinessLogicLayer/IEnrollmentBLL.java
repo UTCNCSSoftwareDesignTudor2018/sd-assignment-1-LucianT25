@@ -7,9 +7,9 @@ public interface IEnrollmentBLL {
 
     String disenroll(int studentId, int courseId);
 
-    String putGrade(int studentId, int courseId, double grade);
+    boolean putGrade(int studentId, int courseId, double grade);
 
-    String changeGrade(int studentId, int courseId, double grade);
+    DefaultTableModel getStudentData(int studentId);
 
-    DefaultTableModel getData(int studentId);
+    DefaultTableModel getCourseData(int courseId);
 }

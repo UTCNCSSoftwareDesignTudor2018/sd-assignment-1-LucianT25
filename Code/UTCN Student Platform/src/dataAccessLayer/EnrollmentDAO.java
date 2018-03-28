@@ -62,10 +62,9 @@ public class EnrollmentDAO {
         return true;
     }
 
-    public static DefaultTableModel getData(int studentId) {
+    public static DefaultTableModel getStudentData(int studentId) {
         Connection c;
         PreparedStatement stmt;
-        //ArrayList<String[]> dataBuilder = null;
         DefaultTableModel data = new DefaultTableModel();
 
         try {
@@ -89,7 +88,43 @@ public class EnrollmentDAO {
                 dataRow.addElement(String.valueOf(rs.getDouble("grade")));
                 dataRow.addElement(String.valueOf(rs.getInt("credits")));
 
-               // dataBuilder.add(new String[]{course, year, grade, credits});
+                data.addRow(dataRow);
+            }
+
+            stmt.close();
+            c.commit();
+        } catch (Exception e) {
+            System.err.println( e.getClass().getName()+": "+ e.getMessage() );
+            System.exit(0);
+        }
+        System.out.println("select successful");
+        return data;
+    }
+
+    public static DefaultTableModel getCourseData(int courseId) {
+        Connection c;
+        PreparedStatement stmt;
+        DefaultTableModel data = new DefaultTableModel();
+
+        try {
+            Class.forName("org.postgresql.Driver");
+            c = SQLConnectionFactory.getConnection();
+            c.setAutoCommit(false);
+            System.out.println("Opened database successfully");
+
+            String sql = "Select public.\"Student\".id, public.\"Student\".name, public.\"Enrollment\".grade from public.\"Student\"" +
+                    " join public.\"Enrollment\" on public.\"Student\".id = public.\"Enrollment\".student_id where course_id = ?;";
+            stmt = c.prepareStatement(sql);
+            stmt.setInt(1, courseId);
+            ResultSet rs = stmt.executeQuery();
+
+            data.setColumnIdentifiers(new String[]{"id", "student", "Grade"});
+            while ( rs.next() ) {
+                Vector<Object> dataRow = new Vector<>();
+                dataRow.addElement(String.valueOf(rs.getInt("id")));
+                dataRow.addElement(rs.getString("name"));
+                dataRow.addElement(String.valueOf(rs.getDouble("grade")));
+
                 data.addRow(dataRow);
             }
 

@@ -8,4 +8,5 @@ public interface IStudentBLL {
 
     Student getStudent(int studentId);
 
+    void createReport(int studentId, int year);
 }

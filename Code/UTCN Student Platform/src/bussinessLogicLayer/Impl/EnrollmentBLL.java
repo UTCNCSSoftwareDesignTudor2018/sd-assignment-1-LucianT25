@@ -7,6 +7,7 @@ import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
 
 public class EnrollmentBLL implements IEnrollmentBLL {
+    @Override
     public String enroll(int studentId, int courseId) {
         if(EnrollmentDAO.enroll(studentId, courseId)) {
             return "Student successfully enrolled.";
@@ -14,25 +15,23 @@ public class EnrollmentBLL implements IEnrollmentBLL {
         return "Enrollment failed.";
     }
 
+    @Override
     public String disenroll(int studentId, int courseId) {
         return "";
     }
 
-    public String putGrade(int studentId, int courseId, double grade) {
-        return "";
+    @Override
+    public boolean putGrade(int studentId, int courseId, double grade) {
+        return EnrollmentDAO.putGrade(studentId, courseId, grade);
     }
 
-    public String changeGrade(int studentId, int courseId, double grade) {
-        return "";
+    @Override
+    public DefaultTableModel getStudentData(int studentId) {
+        return EnrollmentDAO.getStudentData(studentId);
     }
 
-    public DefaultTableModel getData(int studentId) {
-        return EnrollmentDAO.getData(studentId);
-        /*String[][] data = new String[dataRaw.size()][4];
-        for(int i = 0; i < dataRaw.size(); i++) {
-            data[i] = dataRaw.get(i);
-        }
-
-        return data*/
+    @Override
+    public DefaultTableModel getCourseData(int courseId) {
+        return EnrollmentDAO.getCourseData(courseId);
     }
 }
