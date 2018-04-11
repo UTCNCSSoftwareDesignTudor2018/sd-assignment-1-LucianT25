@@ -6,87 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a421d213-68a4-4353-aaeb-2f9b20dba9e9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/utcn/app/App.java" />
-      <change beforePath="$PROJECT_DIR$/../Database/Create_DB.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/UTCN Student Platform.iml" afterPath="$PROJECT_DIR$/UTCNStudentPlatform.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/app/App$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/app/App.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/ICourseBLL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/IEnrollmentBLL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/IStudentBLL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/ITeacherBLL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/IUserBLL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/CourseBLL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/EnrollmentBLL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/StudentBLL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/TeacherBLL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/bussinessLogicLayer/Impl/UserBLL.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/CourseDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/EnrollmentDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/SQLConnectionFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/StudentDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/TeacherDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/dataAccessLayer/UserDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/Login$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/Login.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEditProfile$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEditProfile.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEnroll$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentEnroll.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/StudentMain.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherMain$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherMain$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherMain.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherViewStudent$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherViewStudent$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/presentationLayer/TeacherViewStudent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/Course.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/Enrollment.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/Student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/Teacher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/UTCN Student Platform/repositoryLayer/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/ICourseBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/ICourseBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/IEnrollmentBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/IEnrollmentBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/IStudentBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/IStudentBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/ITeacherBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/ITeacherBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/IUserBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/IUserBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/CourseBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/CourseBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/EnrollmentBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/EnrollmentBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/StudentBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/StudentBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/TeacherBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/TeacherBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/bussinessLogicLayer/Impl/UserBLL.java" afterPath="$PROJECT_DIR$/src/com/utcn/bussinessLogicLayer/Impl/UserBLL.java" />
-      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/CourseDAO.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/CourseDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/EnrollmentDAO.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/EnrollmentDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/SQLConnectionFactory.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/SQLConnectionFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/StudentDAO.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/StudentDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/TeacherDAO.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/TeacherDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/dataAccessLayer/UserDAO.java" afterPath="$PROJECT_DIR$/src/com/utcn/dataAccessLayer/UserDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/Login.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/Login.form" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/Login.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/Login.java" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEditProfile.form" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentEditProfile.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEditProfile.java" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentEnroll.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEnroll.form" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentEnroll.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentEnroll.java" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentMain.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentMain.form" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/StudentMain.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/StudentMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/TeacherMain.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherMain.form" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/TeacherMain.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.form" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherViewStudent.form" />
-      <change beforePath="$PROJECT_DIR$/src/presentationLayer/TeacherViewStudent.java" afterPath="$PROJECT_DIR$/src/com/utcn/presentationLayer/TeacherViewStudent.java" />
-      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/Course.java" afterPath="$PROJECT_DIR$/src/com/utcn/repositoryLayer/Course.java" />
-      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/Enrollment.java" afterPath="$PROJECT_DIR$/src/com/utcn/repositoryLayer/Enrollment.java" />
-      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/Student.java" afterPath="$PROJECT_DIR$/src/com/utcn/repositoryLayer/Student.java" />
-      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/Teacher.java" afterPath="$PROJECT_DIR$/src/com/utcn/repositoryLayer/Teacher.java" />
-      <change beforePath="$PROJECT_DIR$/src/repositoryLayer/User.java" afterPath="$PROJECT_DIR$/src/com/utcn/repositoryLayer/User.java" />
-      <change beforePath="$PROJECT_DIR$/../../Documentation/Assignment_Analysis_and_Design_Document.docx" afterPath="$PROJECT_DIR$/../../Documentation/Assignment_Analysis_and_Design_Document.docx" />
-    </list>
+    <list default="true" id="a421d213-68a4-4353-aaeb-2f9b20dba9e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -517,12 +437,12 @@
       <workItem from="1522073400553" duration="21658000" />
       <workItem from="1522171679743" duration="602000" />
       <workItem from="1522218140649" duration="17196000" />
-      <workItem from="1522240603957" duration="979000" />
+      <workItem from="1522240603957" duration="1297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61552000" />
+    <option name="totallyTimeSpent" value="61870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
